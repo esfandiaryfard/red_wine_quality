@@ -1,2 +1,2 @@
-# red_wine_qyality
+# Red wine quality
 Statistical model in R to predict wine quality
