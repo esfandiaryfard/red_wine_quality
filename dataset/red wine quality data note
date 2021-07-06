@@ -1,0 +1,32 @@
+For information about the data, see:
+
+https://www.kaggle.com/uciml/red-wine-quality-cortez-et-al-2009
+
+Target variable: quality
+
+In the original data there are six values for the target variable, 
+integer numbers ranging from 3 to 8. 
+
+The target variable has been reclassified in four values:
+the values 3 and 4 have been put together in class "4"
+the values 7 and 8 have been put together in class "7"
+
+The folder contains three datasets:
+
+train data: about 60% of the units of the original dataset
+validation data: about 20% of the units of the original dataset
+test data: about 20% of the units of the original dataset
+
+The test set does not contain the target variable. The true values of the target variable will be discussed during the exam.
+
+Index of the report:
+
+1. Exploratory data analysis of the train data set
+2. Modeling the train data according to three different approaches
+   a. discriminant analysis
+   b. random forests
+   c. neural networks
+3. Compare the results and choose the best model
+4. Apply the model to the test data and predict the target values
+5. Provide the file of the test data with the predicted values
+
